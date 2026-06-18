@@ -1,0 +1,108 @@
+
+C:\Users\HP\Desktop\Results\MobileNetV2_GELUpara>python MobileNetV2_GELUpara.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K (Testing on 200K) Epoch 1/10
+Train Loss: 0.0816 | Train Acc : 0.9685
+Val Loss  : 0.0904 | Val Acc   : 0.9634
+
+140K (Testing on 200K) Epoch 2/10
+Train Loss: 0.0329 | Train Acc : 0.9884
+Val Loss  : 0.0850 | Val Acc   : 0.9710
+
+140K (Testing on 200K) Epoch 3/10
+Train Loss: 0.0255 | Train Acc : 0.9906
+Val Loss  : 0.0244 | Val Acc   : 0.9901
+
+140K (Testing on 200K) Epoch 4/10
+Train Loss: 0.0212 | Train Acc : 0.9922
+Val Loss  : 0.0197 | Val Acc   : 0.9936
+
+140K (Testing on 200K) Epoch 5/10
+Train Loss: 0.0189 | Train Acc : 0.9931
+Val Loss  : 0.0361 | Val Acc   : 0.9853
+
+140K (Testing on 200K) Epoch 6/10
+Train Loss: 0.0168 | Train Acc : 0.9941
+Val Loss  : 0.0125 | Val Acc   : 0.9951
+
+140K (Testing on 200K) Epoch 7/10
+Train Loss: 0.0150 | Train Acc : 0.9946
+Val Loss  : 0.0374 | Val Acc   : 0.9844
+
+140K (Testing on 200K) Epoch 8/10
+Train Loss: 0.0136 | Train Acc : 0.9953
+Val Loss  : 0.0463 | Val Acc   : 0.9857
+
+140K (Testing on 200K) Epoch 9/10
+Train Loss: 0.0112 | Train Acc : 0.9960
+Val Loss  : 0.0239 | Val Acc   : 0.9918
+
+140K (Testing on 200K) Epoch 10/10
+Train Loss: 0.0116 | Train Acc : 0.9960
+Val Loss  : 0.0320 | Val Acc   : 0.9883
+Evaluating Model 140K on 200K Test Set...
+
+200K (Testing on 140K) Epoch 1/10
+Train Loss: 0.2831 | Train Acc : 0.8581
+Val Loss  : 0.3368 | Val Acc   : 0.8413
+
+200K (Testing on 140K) Epoch 2/10
+Train Loss: 0.1782 | Train Acc : 0.9080
+Val Loss  : 0.1909 | Val Acc   : 0.9083
+
+200K (Testing on 140K) Epoch 3/10
+Train Loss: 0.1547 | Train Acc : 0.9198
+Val Loss  : 0.2751 | Val Acc   : 0.8771
+
+200K (Testing on 140K) Epoch 4/10
+Train Loss: 0.1405 | Train Acc : 0.9266
+Val Loss  : 0.1477 | Val Acc   : 0.9234
+
+200K (Testing on 140K) Epoch 5/10
+Train Loss: 0.1299 | Train Acc : 0.9314
+Val Loss  : 0.1527 | Val Acc   : 0.9222
+
+200K (Testing on 140K) Epoch 6/10
+Train Loss: 0.1236 | Train Acc : 0.9362
+Val Loss  : 0.2225 | Val Acc   : 0.9023
+
+200K (Testing on 140K) Epoch 7/10
+Train Loss: 0.1179 | Train Acc : 0.9405
+Val Loss  : 0.1308 | Val Acc   : 0.9361
+
+200K (Testing on 140K) Epoch 8/10
+Train Loss: 0.1135 | Train Acc : 0.9436
+Val Loss  : 0.1215 | Val Acc   : 0.9399
+
+200K (Testing on 140K) Epoch 9/10
+Train Loss: 0.1085 | Train Acc : 0.9464
+Val Loss  : 0.2070 | Val Acc   : 0.9072
+
+200K (Testing on 140K) Epoch 10/10
+Train Loss: 0.1047 | Train Acc : 0.9493
+Val Loss  : 0.1240 | Val Acc   : 0.9385
+Evaluating Model 200K on 140K Test Set...
+
+--- Final Cross-Evaluation Summary Table ---
+            Metric  140K Train (Tested on 200K)  200K Train (Tested on 140K)
+0         Accuracy                     0.661400                     0.987500
+1        Precision                     0.611257                     0.977006
+2           Recall                     0.886750                     0.998500
+3               F1                     0.723671                     0.987636
+4              AUC                     0.651110                     0.999705
+5      Specificity                     0.436050                     0.976500
+6      Sensitivity                     0.886750                     0.998500
+7              MCC                     0.361610                     0.975236
+8            Kappa                     0.322800                     0.975000
+9    Training_Time                  1124.730303                  1332.511025
+10  Inference_Time                    28.599758                    22.198825
+11             FPS                  1398.613249                   900.948572
+
+Generating Performance Graphs...
+All cross-evaluation figures successfully rendered and saved under 'Results/'.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_GELUpara>
+C:\Users\HP\Desktop\Results\MobileNetV2_GELUpara>
+C:\Users\HP\Desktop\Results\MobileNetV2_GELUpara>
