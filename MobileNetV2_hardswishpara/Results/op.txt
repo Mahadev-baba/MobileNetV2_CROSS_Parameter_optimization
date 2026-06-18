@@ -1,0 +1,103 @@
+C:\Users\HP\Desktop\Results\MobileNetV2_hardswishpara>python MobileNetV2_hardswishpara.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K (Testing on 200K) Epoch 1/10
+Train Loss: 0.0810 | Train Acc : 0.9686
+Val Loss  : 0.0414 | Val Acc   : 0.9850
+
+140K (Testing on 200K) Epoch 2/10
+Train Loss: 0.0339 | Train Acc : 0.9880
+Val Loss  : 0.0323 | Val Acc   : 0.9880
+
+140K (Testing on 200K) Epoch 3/10
+Train Loss: 0.0266 | Train Acc : 0.9905
+Val Loss  : 0.0461 | Val Acc   : 0.9852
+
+140K (Testing on 200K) Epoch 4/10
+Train Loss: 0.0223 | Train Acc : 0.9919
+Val Loss  : 0.0328 | Val Acc   : 0.9867
+
+140K (Testing on 200K) Epoch 5/10
+Train Loss: 0.0201 | Train Acc : 0.9929
+Val Loss  : 0.0472 | Val Acc   : 0.9835
+
+140K (Testing on 200K) Epoch 6/10
+Train Loss: 0.0150 | Train Acc : 0.9947
+Val Loss  : 0.0406 | Val Acc   : 0.9861
+
+140K (Testing on 200K) Epoch 7/10
+Train Loss: 0.0154 | Train Acc : 0.9944
+Val Loss  : 0.0241 | Val Acc   : 0.9910
+
+140K (Testing on 200K) Epoch 8/10
+Train Loss: 0.0130 | Train Acc : 0.9955
+Val Loss  : 0.0144 | Val Acc   : 0.9943
+
+140K (Testing on 200K) Epoch 9/10
+Train Loss: 0.0128 | Train Acc : 0.9958
+Val Loss  : 0.0378 | Val Acc   : 0.9859
+
+140K (Testing on 200K) Epoch 10/10
+Train Loss: 0.0117 | Train Acc : 0.9957
+Val Loss  : 0.0125 | Val Acc   : 0.9957
+Evaluating Model 140K on 200K Test Set...
+
+200K (Testing on 140K) Epoch 1/10
+Train Loss: 0.2879 | Train Acc : 0.8570
+Val Loss  : 0.2028 | Val Acc   : 0.8980
+
+200K (Testing on 140K) Epoch 2/10
+Train Loss: 0.1789 | Train Acc : 0.9089
+Val Loss  : 0.1646 | Val Acc   : 0.9159
+
+200K (Testing on 140K) Epoch 3/10
+Train Loss: 0.1542 | Train Acc : 0.9217
+Val Loss  : 0.1669 | Val Acc   : 0.9194
+
+200K (Testing on 140K) Epoch 4/10
+Train Loss: 0.1389 | Train Acc : 0.9288
+Val Loss  : 0.1726 | Val Acc   : 0.9127
+
+200K (Testing on 140K) Epoch 5/10
+Train Loss: 0.1299 | Train Acc : 0.9349
+Val Loss  : 0.1323 | Val Acc   : 0.9336
+
+200K (Testing on 140K) Epoch 6/10
+Train Loss: 0.1221 | Train Acc : 0.9398
+Val Loss  : 0.2133 | Val Acc   : 0.9033
+
+200K (Testing on 140K) Epoch 7/10
+Train Loss: 0.1157 | Train Acc : 0.9436
+Val Loss  : 0.1487 | Val Acc   : 0.9295
+
+200K (Testing on 140K) Epoch 8/10
+Train Loss: 0.1118 | Train Acc : 0.9460
+Val Loss  : 0.2189 | Val Acc   : 0.9091
+
+200K (Testing on 140K) Epoch 9/10
+Train Loss: 0.1039 | Train Acc : 0.9502
+Val Loss  : 0.1372 | Val Acc   : 0.9356
+
+200K (Testing on 140K) Epoch 10/10
+Train Loss: 0.1002 | Train Acc : 0.9529
+Val Loss  : 0.1227 | Val Acc   : 0.9431
+Evaluating Model 200K on 140K Test Set...
+
+--- Final Cross-Evaluation Summary Table ---
+            Metric  140K Train (Tested on 200K)  200K Train (Tested on 140K)
+0         Accuracy                     0.686550                     0.991850
+1        Precision                     0.623160                     0.987318
+2           Recall                     0.943900                     0.996500
+3               F1                     0.750706                     0.991888
+4              AUC                     0.587901                     0.999644
+5      Specificity                     0.429200                     0.987200
+6      Sensitivity                     0.943900                     0.996500
+7              MCC                     0.435168                     0.983743
+8            Kappa                     0.373100                     0.983700
+9    Training_Time                  1123.616117                  1331.870717
+10  Inference_Time                    27.991880                    21.664484
+11             FPS                  1428.985825                   923.169931
+
+Generating Performance Graphs...
+All cross-evaluation figures successfully rendered and saved under 'Results/'.
