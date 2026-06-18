@@ -1,0 +1,114 @@
+
+C:\Users\HP\Desktop\Results\MobileNetV2_SELUCross>cd..
+
+C:\Users\HP\Desktop\Results>MobileNetV2_SELUpara
+'MobileNetV2_SELUpara' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop\Results>cd MobileNetV2_SELUpara
+
+C:\Users\HP\Desktop\Results\MobileNetV2_SELUpara>python MobileNetV2_SELUpara.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K (Testing on 200K) Epoch 1/10
+Train Loss: 0.0924 | Train Acc : 0.9654
+Val Loss  : 0.0509 | Val Acc   : 0.9812
+
+140K (Testing on 200K) Epoch 2/10
+Train Loss: 0.0347 | Train Acc : 0.9876
+Val Loss  : 0.0614 | Val Acc   : 0.9772
+
+140K (Testing on 200K) Epoch 3/10
+Train Loss: 0.0288 | Train Acc : 0.9893
+Val Loss  : 0.0805 | Val Acc   : 0.9782
+
+140K (Testing on 200K) Epoch 4/10
+Train Loss: 0.0240 | Train Acc : 0.9916
+Val Loss  : 0.0211 | Val Acc   : 0.9929
+
+140K (Testing on 200K) Epoch 5/10
+Train Loss: 0.0205 | Train Acc : 0.9930
+Val Loss  : 0.0220 | Val Acc   : 0.9923
+
+140K (Testing on 200K) Epoch 6/10
+Train Loss: 0.0186 | Train Acc : 0.9935
+Val Loss  : 0.0342 | Val Acc   : 0.9868
+
+140K (Testing on 200K) Epoch 7/10
+Train Loss: 0.0150 | Train Acc : 0.9947
+Val Loss  : 0.0244 | Val Acc   : 0.9925
+
+140K (Testing on 200K) Epoch 8/10
+Train Loss: 0.0146 | Train Acc : 0.9950
+Val Loss  : 0.0311 | Val Acc   : 0.9895
+
+140K (Testing on 200K) Epoch 9/10
+Train Loss: 0.0114 | Train Acc : 0.9960
+Val Loss  : 0.0265 | Val Acc   : 0.9919
+
+140K (Testing on 200K) Epoch 10/10
+Train Loss: 0.0113 | Train Acc : 0.9961
+Val Loss  : 0.0464 | Val Acc   : 0.9853
+Evaluating Model 140K on 200K Test Set...
+
+200K (Testing on 140K) Epoch 1/10
+Train Loss: 0.2801 | Train Acc : 0.8620
+Val Loss  : 0.2262 | Val Acc   : 0.8946
+
+200K (Testing on 140K) Epoch 2/10
+Train Loss: 0.1759 | Train Acc : 0.9105
+Val Loss  : 0.2070 | Val Acc   : 0.9027
+
+200K (Testing on 140K) Epoch 3/10
+Train Loss: 0.1565 | Train Acc : 0.9191
+Val Loss  : 0.2056 | Val Acc   : 0.8971
+
+200K (Testing on 140K) Epoch 4/10
+Train Loss: 0.1436 | Train Acc : 0.9246
+Val Loss  : 0.2034 | Val Acc   : 0.9014
+
+200K (Testing on 140K) Epoch 5/10
+Train Loss: 0.1320 | Train Acc : 0.9304
+Val Loss  : 0.1399 | Val Acc   : 0.9288
+
+200K (Testing on 140K) Epoch 6/10
+Train Loss: 0.1257 | Train Acc : 0.9349
+Val Loss  : 0.1707 | Val Acc   : 0.9141
+
+200K (Testing on 140K) Epoch 7/10
+Train Loss: 0.1186 | Train Acc : 0.9397
+Val Loss  : 0.1248 | Val Acc   : 0.9369
+
+200K (Testing on 140K) Epoch 8/10
+Train Loss: 0.1116 | Train Acc : 0.9448
+Val Loss  : 0.1314 | Val Acc   : 0.9350
+
+200K (Testing on 140K) Epoch 9/10
+Train Loss: 0.1064 | Train Acc : 0.9474
+Val Loss  : 0.2320 | Val Acc   : 0.9130
+
+200K (Testing on 140K) Epoch 10/10
+Train Loss: 0.1024 | Train Acc : 0.9503
+Val Loss  : 0.1320 | Val Acc   : 0.9332
+Evaluating Model 200K on 140K Test Set...
+
+--- Final Cross-Evaluation Summary Table ---
+            Metric  140K Train (Tested on 200K)  200K Train (Tested on 140K)
+0         Accuracy                     0.662175                     0.990700
+1        Precision                     0.611075                     0.985745
+2           Recall                     0.892200                     0.995800
+3               F1                     0.725351                     0.990747
+4              AUC                     0.656872                     0.999505
+5      Specificity                     0.432150                     0.985600
+6      Sensitivity                     0.892200                     0.995800
+7              MCC                     0.365303                     0.981451
+8            Kappa                     0.324350                     0.981400
+9    Training_Time                  1177.388101                  1366.620724
+10  Inference_Time                    32.115845                    21.499810
+11             FPS                  1245.491110                   930.240759
+
+Generating Performance Graphs...
+All cross-evaluation figures successfully rendered and saved under 'Results/'.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_SELUpara>
