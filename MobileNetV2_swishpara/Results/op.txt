@@ -1,0 +1,107 @@
+
+C:\Users\HP\Desktop\Results\MobileNetV2_swishpara>python MobileNetV2_swishpara.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K (Testing on 200K) Epoch 1/10
+Train Loss: 0.0809 | Train Acc : 0.9687
+Val Loss  : 0.0400 | Val Acc   : 0.9849
+
+140K (Testing on 200K) Epoch 2/10
+Train Loss: 0.0330 | Train Acc : 0.9884
+Val Loss  : 0.0237 | Val Acc   : 0.9922
+
+140K (Testing on 200K) Epoch 3/10
+Train Loss: 0.0256 | Train Acc : 0.9907
+Val Loss  : 0.0213 | Val Acc   : 0.9928
+
+140K (Testing on 200K) Epoch 4/10
+Train Loss: 0.0221 | Train Acc : 0.9923
+Val Loss  : 0.0186 | Val Acc   : 0.9932
+
+140K (Testing on 200K) Epoch 5/10
+Train Loss: 0.0190 | Train Acc : 0.9932
+Val Loss  : 0.0203 | Val Acc   : 0.9933
+
+140K (Testing on 200K) Epoch 6/10
+Train Loss: 0.0159 | Train Acc : 0.9944
+Val Loss  : 0.0378 | Val Acc   : 0.9896
+
+140K (Testing on 200K) Epoch 7/10
+Train Loss: 0.0149 | Train Acc : 0.9946
+Val Loss  : 0.0229 | Val Acc   : 0.9920
+
+140K (Testing on 200K) Epoch 8/10
+Train Loss: 0.0127 | Train Acc : 0.9955
+Val Loss  : 0.0284 | Val Acc   : 0.9888
+
+140K (Testing on 200K) Epoch 9/10
+Train Loss: 0.0115 | Train Acc : 0.9959
+Val Loss  : 0.0219 | Val Acc   : 0.9922
+
+140K (Testing on 200K) Epoch 10/10
+Train Loss: 0.0103 | Train Acc : 0.9965
+Val Loss  : 0.0134 | Val Acc   : 0.9950
+Evaluating Model 140K on 200K Test Set...
+
+200K (Testing on 140K) Epoch 1/10
+Train Loss: 0.2834 | Train Acc : 0.8588
+Val Loss  : 0.1968 | Val Acc   : 0.8916
+
+200K (Testing on 140K) Epoch 2/10
+Train Loss: 0.1766 | Train Acc : 0.9081
+Val Loss  : 0.2055 | Val Acc   : 0.9018
+
+200K (Testing on 140K) Epoch 3/10
+Train Loss: 0.1525 | Train Acc : 0.9187
+Val Loss  : 0.1419 | Val Acc   : 0.9216
+
+200K (Testing on 140K) Epoch 4/10
+Train Loss: 0.1407 | Train Acc : 0.9237
+Val Loss  : 0.1400 | Val Acc   : 0.9257
+
+200K (Testing on 140K) Epoch 5/10
+Train Loss: 0.1339 | Train Acc : 0.9271
+Val Loss  : 0.1553 | Val Acc   : 0.9184
+
+200K (Testing on 140K) Epoch 6/10
+Train Loss: 0.1245 | Train Acc : 0.9311
+Val Loss  : 0.1961 | Val Acc   : 0.9079
+
+200K (Testing on 140K) Epoch 7/10
+Train Loss: 0.1214 | Train Acc : 0.9327
+Val Loss  : 0.1373 | Val Acc   : 0.9294
+
+200K (Testing on 140K) Epoch 8/10
+Train Loss: 0.1161 | Train Acc : 0.9360
+Val Loss  : 0.1437 | Val Acc   : 0.9278
+
+200K (Testing on 140K) Epoch 9/10
+Train Loss: 0.1116 | Train Acc : 0.9390
+Val Loss  : 0.1654 | Val Acc   : 0.9176
+
+200K (Testing on 140K) Epoch 10/10
+Train Loss: 0.1079 | Train Acc : 0.9421
+Val Loss  : 0.1237 | Val Acc   : 0.9344
+Evaluating Model 200K on 140K Test Set...
+
+--- Final Cross-Evaluation Summary Table ---
+            Metric  140K Train (Tested on 200K)  200K Train (Tested on 140K)
+0         Accuracy                     0.664750                     0.993900
+1        Precision                     0.614346                     0.993407
+2           Recall                     0.885150                     0.994400
+3               F1                     0.725295                     0.993903
+4              AUC                     0.637568                     0.999734
+5      Specificity                     0.444350                     0.993400
+6      Sensitivity                     0.885150                     0.994400
+7              MCC                     0.367088                     0.987800
+8            Kappa                     0.329500                     0.987800
+9    Training_Time                  1108.412555                 10062.425691
+10  Inference_Time                    27.881176                    21.134668
+11             FPS                  1434.659739                   946.312481
+
+Generating Performance Graphs...
+All cross-evaluation figures successfully rendered and saved under 'Results/'.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_swishpara>
+C:\Users\HP\Desktop\Results\MobileNetV2_swishpara>
